@@ -1,0 +1,166 @@
+/* General body styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+    height: 100vh;  
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 5px 0; 
+}
+
+.navbar .navbar-brand {
+    padding: 0;
+}
+
+.navbar .navbar-nav .nav-item {
+    padding: 0 10px;
+}
+
+/* Main content area */
+.container_main {
+    width: 100%;
+    max-width: 1300px; 
+    margin: 0 auto;    
+    padding: 10px 20px; 
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+    font-weight: 600;
+    color: #008fb3;
+}
+.login-container h2 {
+    text-align: center; 
+}
+
+.login-container a{
+    color: #404040;
+}
+
+/* Style the paragraph */
+.custom-paragraph {
+    max-width:750px;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Reduce the width of the input fields */
+.custom-input {
+    max-width: 400px;  
+    margin: 0 auto;    
+    display: block;    
+}
+
+/* Center the login form container */
+.login-container {
+    max-width: 400px;  
+    width: 100%;  
+    margin: 0 auto;    
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Custom Button Styling */
+.btn.btn-primary {
+    background-color: #008fb3 !important;  
+    border: none !important;
+    color: white !important; 
+}
+
+.btn.btn-primary:hover {
+    background-color: #00a3cc !important; 
+    color: #404040 !important;  
+}
+
+/* Center the login button */
+.login-container .btn-primary {
+    display: block;
+    margin: 0 auto;
+    width: 100%;  
+    text-align: center;
+}
+
+#requestForm {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Footer styles */
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+footer .social-links a {
+    font-size: 20px;
+    margin-right: 15px;
+    color: #fff;
+}
+
+footer .social-links a:hover {
+    color: #007bff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .social-links {
+        margin-top: 20px;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .container_main {
+        padding: 20px; 
+    }
+
+    footer .container {
+        display: block;
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    footer .social-links {
+        margin-top: 20px;
+    }
+
+    footer .social-links a {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
